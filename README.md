@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# dozy-homepage
 
-## Getting Started
+Dozy Coffee 메인 홈페이지. `www.dozy.kr`로 접속하면 가장 먼저 보이는 공개 웹사이트다.
 
-First, run the development server:
+- 스택: Next.js 16 (App Router), TypeScript, Tailwind CSS v4, pnpm
+- 명세와 결정: [docs/](docs/README.md)
+
+## 빠른 시작
+
+Node.js 24와 pnpm이 필요하다.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000 에서 확인한다. 환경 변수가 필요해지면 [docs/configuration.md](docs/configuration.md)를 따른다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 스크립트
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| 명령 | 내용 |
+|---|---|
+| `pnpm dev` | 개발 서버 |
+| `pnpm build` | 프로덕션 빌드 |
+| `pnpm start` | 빌드 결과 실행 |
+| `pnpm lint` | ESLint 검사 |
 
-## Learn More
+PR 전에 `pnpm lint`와 `pnpm build`가 통과해야 한다.
 
-To learn more about Next.js, take a look at the following resources:
+## 디렉토리 구조
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+dozy-homepage/
+├─ AGENTS.md          에이전트 지침 (CLAUDE.md가 불러옴)
+├─ docs/              명세와 ADR
+│  ├─ pages/          사이트맵과 페이지별 명세
+│  └─ adr/            결정과 이유
+├─ public/            정적 파일 (이미지, 파비콘 등)
+└─ src/
+   └─ app/
+      ├─ layout.tsx   공통 레이아웃, 기본 메타데이터, 폰트(Pretendard)
+      ├─ page.tsx     메인 페이지 (/)
+      └─ globals.css  Tailwind와 디자인 토큰
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+폴더별 역할과 규칙은 [docs/architecture.md](docs/architecture.md#폴더)에 있다.
 
-## Deploy on Vercel
+## 문서
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| 문서 | 내용 |
+|---|---|
+| [docs/README.md](docs/README.md) | 문서 안내, 담당 범위, 수정 규칙 |
+| [docs/pages/](docs/pages/README.md) | 사이트맵, 페이지별 명세 |
+| [docs/architecture.md](docs/architecture.md) | 렌더링 전략, 코드 규칙 |
+| [docs/design-system.md](docs/design-system.md) | 디자인 토큰, 공통 컴포넌트 |
+| [docs/seo.md](docs/seo.md) | 메타데이터, sitemap, robots |
+| [docs/quality.md](docs/quality.md) | 성능, 접근성, 지원 브라우저 |
+| [docs/configuration.md](docs/configuration.md) | 환경 변수, 배포, 도메인 |
+| [docs/adr/](docs/adr/README.md) | 결정과 이유 |
