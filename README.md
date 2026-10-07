@@ -14,7 +14,7 @@ pnpm install
 pnpm dev
 ```
 
-http://localhost:3000 에서 확인한다. 환경 변수가 필요해지면 [docs/configuration.md](docs/configuration.md)를 따른다.
+http://localhost:3000 에서 확인한다. 환경 변수는 `.env.example`을 `.env.local`로 복사해 쓰며, 설명은 [docs/configuration.md](docs/configuration.md)에 있다.
 
 ## 스크립트
 
@@ -24,6 +24,8 @@ http://localhost:3000 에서 확인한다. 환경 변수가 필요해지면 [doc
 | `pnpm build` | 프로덕션 빌드 |
 | `pnpm start` | 빌드 결과 실행 |
 | `pnpm lint` | ESLint 검사 |
+| `pnpm images` | `assets-src/`의 원본 이미지를 WebP·JPEG로 변환해 `public/assets/images/`에 넣음 (`--force`: 모두 다시) |
+| `pnpm images:check` | `public/assets/images/` 파일의 형식·크기·비율 검사 |
 
 PR 전에 `pnpm lint`와 `pnpm build`가 통과해야 한다.
 
@@ -35,12 +37,22 @@ dozy-homepage/
 ├─ docs/              명세와 ADR
 │  ├─ pages/          사이트맵과 페이지별 명세
 │  └─ adr/            결정과 이유
-├─ public/            정적 파일 (이미지, 파비콘 등)
+├─ assets-src/        이미지 원본 (git 제외, pnpm images가 변환)
+├─ scripts/           이미지 변환 스크립트와 이미지 자리 목록
+├─ public/
+│  └─ assets/images/  사진, 로고, 파비콘, 공유 이미지 (파일명은 docs/design-system.md)
 └─ src/
-   └─ app/
-      ├─ layout.tsx   공통 레이아웃, 기본 메타데이터, 폰트(Pretendard)
-      ├─ page.tsx     메인 페이지 (/)
-      └─ globals.css  Tailwind와 디자인 토큰
+   ├─ app/
+   │  ├─ layout.tsx   공통 레이아웃(헤더, 푸터), 기본 메타데이터, 폰트(Pretendard)
+   │  ├─ page.tsx     메인 페이지 (/)
+   │  ├─ not-found.tsx 404
+   │  ├─ sitemap.ts, robots.ts  SEO 파일
+   │  ├─ _components/ 메인 페이지 섹션
+   │  └─ globals.css  Tailwind와 디자인 토큰
+   ├─ components/     공통 컴포넌트
+   ├─ content/        공개용 문구와 데이터 (메뉴, 매장, 소식, 사이트 설정)
+   ├─ lib/            공용 코드 (사이트 기준 값, 데이터 선택, 이미지 확인)
+   └─ mocks/          화면 확인용 예시 데이터: 매장, 소식 (SHOW_DEMO_DATA=true일 때만)
 ```
 
 폴더별 역할과 규칙은 [docs/architecture.md](docs/architecture.md#폴더)에 있다.

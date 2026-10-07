@@ -61,3 +61,9 @@ desktop.ini
 CLAUDE.local.md
 .context/
 .claude/settings.local.json
+
+# local generated assets (AI 콘셉트 이미지 등, 개인 작업용)
+/output/
+
+# 이미지 원본 (pnpm images가 public/assets/images/로 변환. 변환 결과만 커밋한다)
+/assets-src/
