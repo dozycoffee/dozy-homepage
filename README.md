@@ -40,6 +40,7 @@ dozy-homepage/
 ├─ assets-src/        이미지 원본 (git 제외, pnpm images가 변환)
 ├─ scripts/           이미지 변환 스크립트와 이미지 자리 목록
 ├─ public/
+│  ├─ data/menu.json  메뉴 카탈로그 JSON (브라우저에서 조회)
 │  └─ assets/images/  사진, 로고, 파비콘, 공유 이미지 (파일명은 docs/design-system.md)
 └─ src/
    ├─ app/
@@ -47,12 +48,14 @@ dozy-homepage/
    │  ├─ page.tsx     메인 페이지 (/)
    │  ├─ not-found.tsx 404
    │  ├─ sitemap.ts, robots.ts  SEO 파일
+   │  ├─ menu/        전체 메뉴 페이지와 조회 컴포넌트
+   │  ├─ stores/      매장 검색 페이지와 결과 컴포넌트
    │  ├─ _components/ 메인 페이지 섹션
    │  └─ globals.css  Tailwind와 디자인 토큰
    ├─ components/     공통 컴포넌트
-   ├─ content/        공개용 문구와 데이터 (메뉴, 매장, 소식, 사이트 설정)
-   ├─ lib/            공용 코드 (사이트 기준 값, 데이터 선택, 이미지 확인)
-   └─ mocks/          화면 확인용 예시 데이터: 매장, 소식 (SHOW_DEMO_DATA=true일 때만)
+   ├─ content/        공개용 문구와 데이터 형태, 매장·소식·사이트 설정
+   ├─ lib/            공용 코드 (사이트 기준 값, 데이터 선택, 메뉴 API 클라이언트, 이미지 확인)
+   └─ mocks/          화면 확인용 예시 데이터: 매장 JSON 100개, 소식 (SHOW_DEMO_DATA=true일 때만)
 ```
 
 폴더별 역할과 규칙은 [docs/architecture.md](docs/architecture.md#폴더)에 있다.
@@ -67,5 +70,6 @@ dozy-homepage/
 | [docs/design-system.md](docs/design-system.md) | 디자인 토큰, 공통 컴포넌트 |
 | [docs/seo.md](docs/seo.md) | 메타데이터, sitemap, robots |
 | [docs/quality.md](docs/quality.md) | 성능, 접근성, 지원 브라우저 |
+| [docs/data-sources.md](docs/data-sources.md) | 메뉴 JSON/API 조회 계약과 전환 방법 |
 | [docs/configuration.md](docs/configuration.md) | 환경 변수, 배포, 도메인 |
 | [docs/adr/](docs/adr/README.md) | 결정과 이유 |

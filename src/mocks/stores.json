@@ -1,0 +1,1202 @@
+[
+  {
+    "name": "잠실점",
+    "address": {
+      "roadAddress": "서울특별시 송파구 올림픽로 212",
+      "detailAddress": null,
+      "postalCode": "05553",
+      "sido": "서울특별시",
+      "sigungu": "송파구"
+    },
+    "phone": "02-3293-8628",
+    "openingDate": "2023-01-10"
+  },
+  {
+    "name": "서초점",
+    "address": {
+      "roadAddress": "서울특별시 서초구 강남대로 343",
+      "detailAddress": null,
+      "postalCode": "06626",
+      "sido": "서울특별시",
+      "sigungu": "서초구"
+    },
+    "phone": "02-5826-3963",
+    "openingDate": "2023-01-25"
+  },
+  {
+    "name": "서교점",
+    "address": {
+      "roadAddress": "서울특별시 마포구 양화로 45",
+      "detailAddress": null,
+      "postalCode": "04036",
+      "sido": "서울특별시",
+      "sigungu": "마포구"
+    },
+    "phone": "02-7879-7539",
+    "openingDate": "2023-02-08"
+  },
+  {
+    "name": "무교점",
+    "address": {
+      "roadAddress": "서울특별시 중구 무교로 21",
+      "detailAddress": null,
+      "postalCode": "04520",
+      "sido": "서울특별시",
+      "sigungu": "중구"
+    },
+    "phone": "02-8096-6830",
+    "openingDate": "2023-02-23"
+  },
+  {
+    "name": "진관점",
+    "address": {
+      "roadAddress": "서울특별시 은평구 연서로 645",
+      "detailAddress": null,
+      "postalCode": "03304",
+      "sido": "서울특별시",
+      "sigungu": "은평구"
+    },
+    "phone": "02-5651-9404",
+    "openingDate": "2023-03-09"
+  },
+  {
+    "name": "대치점",
+    "address": {
+      "roadAddress": "서울특별시 강남구 도곡로 457",
+      "detailAddress": null,
+      "postalCode": "06209",
+      "sido": "서울특별시",
+      "sigungu": "강남구"
+    },
+    "phone": "02-8653-2901",
+    "openingDate": "2023-03-24"
+  },
+  {
+    "name": "수유점",
+    "address": {
+      "roadAddress": "서울특별시 강북구 도봉로 315",
+      "detailAddress": null,
+      "postalCode": "01073",
+      "sido": "서울특별시",
+      "sigungu": "강북구"
+    },
+    "phone": "02-6465-3087",
+    "openingDate": "2023-04-07"
+  },
+  {
+    "name": "마곡점",
+    "address": {
+      "roadAddress": "서울특별시 강서구 마곡동로 166",
+      "detailAddress": null,
+      "postalCode": "07790",
+      "sido": "서울특별시",
+      "sigungu": "강서구"
+    },
+    "phone": "02-2756-8570",
+    "openingDate": "2023-04-22"
+  },
+  {
+    "name": "길동점",
+    "address": {
+      "roadAddress": "서울특별시 강동구 천호대로 1131",
+      "detailAddress": null,
+      "postalCode": "05355",
+      "sido": "서울특별시",
+      "sigungu": "강동구"
+    },
+    "phone": "02-4257-1884",
+    "openingDate": "2023-05-06"
+  },
+  {
+    "name": "목동점",
+    "address": {
+      "roadAddress": "서울특별시 양천구 공항대로 566",
+      "detailAddress": null,
+      "postalCode": "07947",
+      "sido": "서울특별시",
+      "sigungu": "양천구"
+    },
+    "phone": "02-7497-4450",
+    "openingDate": "2023-05-21"
+  },
+  {
+    "name": "답십리점",
+    "address": {
+      "roadAddress": "서울특별시 동대문구 전농로 38",
+      "detailAddress": null,
+      "postalCode": "02615",
+      "sido": "서울특별시",
+      "sigungu": "동대문구"
+    },
+    "phone": "02-4847-4863",
+    "openingDate": "2023-06-04"
+  },
+  {
+    "name": "여의도점",
+    "address": {
+      "roadAddress": "서울특별시 영등포구 국제금융로 10",
+      "detailAddress": null,
+      "postalCode": "07326",
+      "sido": "서울특별시",
+      "sigungu": "영등포구"
+    },
+    "phone": "02-4634-4440",
+    "openingDate": "2023-06-19"
+  },
+  {
+    "name": "신림점",
+    "address": {
+      "roadAddress": "서울특별시 관악구 신림로 330",
+      "detailAddress": null,
+      "postalCode": "08777",
+      "sido": "서울특별시",
+      "sigungu": "관악구"
+    },
+    "phone": "02-3561-3407",
+    "openingDate": "2023-07-04"
+  },
+  {
+    "name": "가산점",
+    "address": {
+      "roadAddress": "서울특별시 금천구 가산디지털1로 168",
+      "detailAddress": null,
+      "postalCode": "08507",
+      "sido": "서울특별시",
+      "sigungu": "금천구"
+    },
+    "phone": "02-3644-6785",
+    "openingDate": "2023-07-18"
+  },
+  {
+    "name": "구의점",
+    "address": {
+      "roadAddress": "서울특별시 광진구 자양로18길 22",
+      "detailAddress": null,
+      "postalCode": "05044",
+      "sido": "서울특별시",
+      "sigungu": "광진구"
+    },
+    "phone": "02-5131-7812",
+    "openingDate": "2023-08-02"
+  },
+  {
+    "name": "장위점",
+    "address": {
+      "roadAddress": "서울특별시 성북구 화랑로 265",
+      "detailAddress": null,
+      "postalCode": "02776",
+      "sido": "서울특별시",
+      "sigungu": "성북구"
+    },
+    "phone": "02-8939-4554",
+    "openingDate": "2023-08-16"
+  },
+  {
+    "name": "창동점",
+    "address": {
+      "roadAddress": "서울특별시 도봉구 마들로13길 61",
+      "detailAddress": null,
+      "postalCode": "01413",
+      "sido": "서울특별시",
+      "sigungu": "도봉구"
+    },
+    "phone": "02-5401-8654",
+    "openingDate": "2023-08-31"
+  },
+  {
+    "name": "사당점",
+    "address": {
+      "roadAddress": "서울특별시 동작구 사당로 300",
+      "detailAddress": null,
+      "postalCode": "07013",
+      "sido": "서울특별시",
+      "sigungu": "동작구"
+    },
+    "phone": "02-6649-5618",
+    "openingDate": "2023-09-14"
+  },
+  {
+    "name": "광화문점",
+    "address": {
+      "roadAddress": "서울특별시 종로구 세종대로 167",
+      "detailAddress": null,
+      "postalCode": "03183",
+      "sido": "서울특별시",
+      "sigungu": "종로구"
+    },
+    "phone": "02-8590-7245",
+    "openingDate": "2023-09-29"
+  },
+  {
+    "name": "행당점",
+    "address": {
+      "roadAddress": "서울특별시 성동구 왕십리광장로 17",
+      "detailAddress": null,
+      "postalCode": "04750",
+      "sido": "서울특별시",
+      "sigungu": "성동구"
+    },
+    "phone": "02-3414-3133",
+    "openingDate": "2023-10-13"
+  },
+  {
+    "name": "묵동점",
+    "address": {
+      "roadAddress": "서울특별시 중랑구 동일로 952",
+      "detailAddress": null,
+      "postalCode": "02033",
+      "sido": "서울특별시",
+      "sigungu": "중랑구"
+    },
+    "phone": "02-3579-1192",
+    "openingDate": "2023-10-28"
+  },
+  {
+    "name": "북아현점",
+    "address": {
+      "roadAddress": "서울특별시 서대문구 신촌로35길 10",
+      "detailAddress": null,
+      "postalCode": "03772",
+      "sido": "서울특별시",
+      "sigungu": "서대문구"
+    },
+    "phone": "02-7037-7580",
+    "openingDate": "2023-11-11"
+  },
+  {
+    "name": "한남점",
+    "address": {
+      "roadAddress": "서울특별시 용산구 독서당로 94",
+      "detailAddress": null,
+      "postalCode": "04420",
+      "sido": "서울특별시",
+      "sigungu": "용산구"
+    },
+    "phone": "02-3309-3763",
+    "openingDate": "2023-11-26"
+  },
+  {
+    "name": "구로점",
+    "address": {
+      "roadAddress": "서울특별시 구로구 디지털로32길 72",
+      "detailAddress": null,
+      "postalCode": "08393",
+      "sido": "서울특별시",
+      "sigungu": "구로구"
+    },
+    "phone": "02-3678-3836",
+    "openingDate": "2023-12-11"
+  },
+  {
+    "name": "중계점",
+    "address": {
+      "roadAddress": "서울특별시 노원구 중계로 217",
+      "detailAddress": null,
+      "postalCode": "01743",
+      "sido": "서울특별시",
+      "sigungu": "노원구"
+    },
+    "phone": "02-8990-1528",
+    "openingDate": "2023-12-25"
+  },
+  {
+    "name": "상계점",
+    "address": {
+      "roadAddress": "서울특별시 노원구 노해로 502",
+      "detailAddress": null,
+      "postalCode": "01752",
+      "sido": "서울특별시",
+      "sigungu": "노원구"
+    },
+    "phone": "02-7553-4986",
+    "openingDate": "2024-01-09"
+  },
+  {
+    "name": "오류점",
+    "address": {
+      "roadAddress": "서울특별시 구로구 경인로 216",
+      "detailAddress": null,
+      "postalCode": "08271",
+      "sido": "서울특별시",
+      "sigungu": "구로구"
+    },
+    "phone": "02-5771-7451",
+    "openingDate": "2024-01-23"
+  },
+  {
+    "name": "용산한강점",
+    "address": {
+      "roadAddress": "서울특별시 용산구 한강대로 69",
+      "detailAddress": null,
+      "postalCode": "04378",
+      "sido": "서울특별시",
+      "sigungu": "용산구"
+    },
+    "phone": "02-3137-1959",
+    "openingDate": "2024-02-07"
+  },
+  {
+    "name": "김포양촌점",
+    "address": {
+      "roadAddress": "경기도 김포시 양촌읍 김포한강4로 257",
+      "detailAddress": null,
+      "postalCode": "10065",
+      "sido": "경기도",
+      "sigungu": "김포시"
+    },
+    "phone": "031-7089-5148",
+    "openingDate": "2024-02-21"
+  },
+  {
+    "name": "광주장지점",
+    "address": {
+      "roadAddress": "경기도 광주시 경충대로 1879",
+      "detailAddress": null,
+      "postalCode": "12775",
+      "sido": "경기도",
+      "sigungu": "광주시"
+    },
+    "phone": "031-7976-9408",
+    "openingDate": "2024-03-07"
+  },
+  {
+    "name": "여주상거점",
+    "address": {
+      "roadAddress": "경기도 여주시 명품로 360",
+      "detailAddress": null,
+      "postalCode": "12646",
+      "sido": "경기도",
+      "sigungu": "여주시"
+    },
+    "phone": "031-7948-5848",
+    "openingDate": "2024-03-21"
+  },
+  {
+    "name": "수원이의점",
+    "address": {
+      "roadAddress": "경기도 수원시 영통구 광교중앙로 145",
+      "detailAddress": null,
+      "postalCode": "16508",
+      "sido": "경기도",
+      "sigungu": "수원시 영통구"
+    },
+    "phone": "031-7750-6649",
+    "openingDate": "2024-04-05"
+  },
+  {
+    "name": "부천중동점",
+    "address": {
+      "roadAddress": "경기도 부천시 원미구 길주로 254",
+      "detailAddress": null,
+      "postalCode": "14548",
+      "sido": "경기도",
+      "sigungu": "부천시 원미구"
+    },
+    "phone": "031-6426-6724",
+    "openingDate": "2024-04-19"
+  },
+  {
+    "name": "수원매산로점",
+    "address": {
+      "roadAddress": "경기도 수원시 팔달구 덕영대로 924",
+      "detailAddress": null,
+      "postalCode": "16622",
+      "sido": "경기도",
+      "sigungu": "수원시 팔달구"
+    },
+    "phone": "031-6543-7047",
+    "openingDate": "2024-05-04"
+  },
+  {
+    "name": "용인죽전점",
+    "address": {
+      "roadAddress": "경기도 용인시 수지구 죽전로168번길 18",
+      "detailAddress": null,
+      "postalCode": "16889",
+      "sido": "경기도",
+      "sigungu": "용인시 수지구"
+    },
+    "phone": "031-6061-7682",
+    "openingDate": "2024-05-19"
+  },
+  {
+    "name": "성남삼평점",
+    "address": {
+      "roadAddress": "경기도 성남시 분당구 대왕판교로 660",
+      "detailAddress": null,
+      "postalCode": "13494",
+      "sido": "경기도",
+      "sigungu": "성남시 분당구"
+    },
+    "phone": "031-8338-2114",
+    "openingDate": "2024-06-02"
+  },
+  {
+    "name": "이천송정점",
+    "address": {
+      "roadAddress": "경기도 이천시 증신로 285",
+      "detailAddress": null,
+      "postalCode": "17344",
+      "sido": "경기도",
+      "sigungu": "이천시"
+    },
+    "phone": "031-8766-2760",
+    "openingDate": "2024-06-17"
+  },
+  {
+    "name": "화성반송점",
+    "address": {
+      "roadAddress": "경기도 화성시 동탄구 메타폴리스로 54",
+      "detailAddress": null,
+      "postalCode": "18455",
+      "sido": "경기도",
+      "sigungu": "화성시 동탄구"
+    },
+    "phone": "031-4556-8218",
+    "openingDate": "2024-07-01"
+  },
+  {
+    "name": "용인하갈점",
+    "address": {
+      "roadAddress": "경기도 용인시 기흥구 덕영대로 1800",
+      "detailAddress": null,
+      "postalCode": "17099",
+      "sido": "경기도",
+      "sigungu": "용인시 기흥구"
+    },
+    "phone": "031-4168-5028",
+    "openingDate": "2024-07-16"
+  },
+  {
+    "name": "성남신흥점",
+    "address": {
+      "roadAddress": "경기도 성남시 수정구 산성대로 267",
+      "detailAddress": null,
+      "postalCode": "13353",
+      "sido": "경기도",
+      "sigungu": "성남시 수정구"
+    },
+    "phone": "031-8850-8266",
+    "openingDate": "2024-07-30"
+  },
+  {
+    "name": "의정부용현점",
+    "address": {
+      "roadAddress": "경기도 의정부시 시민로 468",
+      "detailAddress": null,
+      "postalCode": "11796",
+      "sido": "경기도",
+      "sigungu": "의정부시"
+    },
+    "phone": "031-8382-9514",
+    "openingDate": "2024-08-14"
+  },
+  {
+    "name": "수원금곡점",
+    "address": {
+      "roadAddress": "경기도 수원시 권선구 금곡로 219",
+      "detailAddress": null,
+      "postalCode": "16391",
+      "sido": "경기도",
+      "sigungu": "수원시 권선구"
+    },
+    "phone": "031-8662-9185",
+    "openingDate": "2024-08-28"
+  },
+  {
+    "name": "구리인창점",
+    "address": {
+      "roadAddress": "경기도 구리시 건원대로 53",
+      "detailAddress": null,
+      "postalCode": "11918",
+      "sido": "경기도",
+      "sigungu": "구리시"
+    },
+    "phone": "031-6873-5264",
+    "openingDate": "2024-09-12"
+  },
+  {
+    "name": "고양풍동점",
+    "address": {
+      "roadAddress": "경기도 고양시 일산동구 고양대로 910",
+      "detailAddress": null,
+      "postalCode": "10311",
+      "sido": "경기도",
+      "sigungu": "고양시 일산동구"
+    },
+    "phone": "031-3305-2053",
+    "openingDate": "2024-09-26"
+  },
+  {
+    "name": "하남망월점",
+    "address": {
+      "roadAddress": "경기도 하남시 미사강변동로 100",
+      "detailAddress": null,
+      "postalCode": "12912",
+      "sido": "경기도",
+      "sigungu": "하남시"
+    },
+    "phone": "031-7637-6453",
+    "openingDate": "2024-10-11"
+  },
+  {
+    "name": "안양비산점",
+    "address": {
+      "roadAddress": "경기도 안양시 동안구 경수대로 821",
+      "detailAddress": null,
+      "postalCode": "14039",
+      "sido": "경기도",
+      "sigungu": "안양시 동안구"
+    },
+    "phone": "031-3449-1994",
+    "openingDate": "2024-10-26"
+  },
+  {
+    "name": "안양안양점",
+    "address": {
+      "roadAddress": "경기도 안양시 만안구 안양로 96",
+      "detailAddress": null,
+      "postalCode": "14035",
+      "sido": "경기도",
+      "sigungu": "안양시 만안구"
+    },
+    "phone": "031-8275-5608",
+    "openingDate": "2024-11-09"
+  },
+  {
+    "name": "안산고잔점",
+    "address": {
+      "roadAddress": "경기도 안산시 단원구 중앙대로 907",
+      "detailAddress": null,
+      "postalCode": "15361",
+      "sido": "경기도",
+      "sigungu": "안산시 단원구"
+    },
+    "phone": "031-7885-3082",
+    "openingDate": "2024-11-24"
+  },
+  {
+    "name": "시흥월곶점",
+    "address": {
+      "roadAddress": "경기도 시흥시 월곶중앙로58번길 5-6",
+      "detailAddress": null,
+      "postalCode": "14966",
+      "sido": "경기도",
+      "sigungu": "시흥시"
+    },
+    "phone": "031-7980-1931",
+    "openingDate": "2024-12-08"
+  },
+  {
+    "name": "양주옥정점",
+    "address": {
+      "roadAddress": "경기도 양주시 옥정동로7길 30",
+      "detailAddress": null,
+      "postalCode": "11473",
+      "sido": "경기도",
+      "sigungu": "양주시"
+    },
+    "phone": "031-8506-4690",
+    "openingDate": "2024-12-23"
+  },
+  {
+    "name": "부천심곡본점",
+    "address": {
+      "roadAddress": "경기도 부천시 소사구 부천로 1",
+      "detailAddress": null,
+      "postalCode": "14637",
+      "sido": "경기도",
+      "sigungu": "부천시 소사구"
+    },
+    "phone": "031-4638-9693",
+    "openingDate": "2025-01-06"
+  },
+  {
+    "name": "광명일직점",
+    "address": {
+      "roadAddress": "경기도 광명시 일직로 17",
+      "detailAddress": null,
+      "postalCode": "14352",
+      "sido": "경기도",
+      "sigungu": "광명시"
+    },
+    "phone": "031-7188-4646",
+    "openingDate": "2025-01-21"
+  },
+  {
+    "name": "평택고덕점",
+    "address": {
+      "roadAddress": "경기도 평택시 고덕여염9길 38",
+      "detailAddress": null,
+      "postalCode": "18014",
+      "sido": "경기도",
+      "sigungu": "평택시"
+    },
+    "phone": "031-7431-6952",
+    "openingDate": "2025-02-04"
+  },
+  {
+    "name": "부산우동점",
+    "address": {
+      "roadAddress": "부산광역시 해운대구 마린시티2로 33",
+      "detailAddress": null,
+      "postalCode": "48119",
+      "sido": "부산광역시",
+      "sigungu": "해운대구"
+    },
+    "phone": "051-4834-8566",
+    "openingDate": "2025-02-19"
+  },
+  {
+    "name": "부산남천점",
+    "address": {
+      "roadAddress": "부산광역시 수영구 수영로464번길 6",
+      "detailAddress": null,
+      "postalCode": "48314",
+      "sido": "부산광역시",
+      "sigungu": "수영구"
+    },
+    "phone": "051-2202-2968",
+    "openingDate": "2025-03-05"
+  },
+  {
+    "name": "부산온천점",
+    "address": {
+      "roadAddress": "부산광역시 동래구 동래로 25",
+      "detailAddress": null,
+      "postalCode": "47715",
+      "sido": "부산광역시",
+      "sigungu": "동래구"
+    },
+    "phone": "051-5995-4259",
+    "openingDate": "2025-03-20"
+  },
+  {
+    "name": "부산연산점",
+    "address": {
+      "roadAddress": "부산광역시 연제구 반송로 20",
+      "detailAddress": null,
+      "postalCode": "47549",
+      "sido": "부산광역시",
+      "sigungu": "연제구"
+    },
+    "phone": "051-8834-9706",
+    "openingDate": "2025-04-04"
+  },
+  {
+    "name": "부산용호점",
+    "address": {
+      "roadAddress": "부산광역시 남구 용호로232번길 25-14",
+      "detailAddress": null,
+      "postalCode": "48575",
+      "sido": "부산광역시",
+      "sigungu": "남구"
+    },
+    "phone": "051-3075-4526",
+    "openingDate": "2025-04-18"
+  },
+  {
+    "name": "부산아미점",
+    "address": {
+      "roadAddress": "부산광역시 서구 구덕로 179",
+      "detailAddress": null,
+      "postalCode": "49241",
+      "sido": "부산광역시",
+      "sigungu": "서구"
+    },
+    "phone": "051-2459-7487",
+    "openingDate": "2025-05-03"
+  },
+  {
+    "name": "부산하단점",
+    "address": {
+      "roadAddress": "부산광역시 사하구 하신번영로 381-6",
+      "detailAddress": null,
+      "postalCode": "49301",
+      "sido": "부산광역시",
+      "sigungu": "사하구"
+    },
+    "phone": "051-8038-2804",
+    "openingDate": "2025-05-17"
+  },
+  {
+    "name": "부산범천점",
+    "address": {
+      "roadAddress": "부산광역시 부산진구 중앙대로 639",
+      "detailAddress": null,
+      "postalCode": "47351",
+      "sido": "부산광역시",
+      "sigungu": "부산진구"
+    },
+    "phone": "051-5381-3582",
+    "openingDate": "2025-06-01"
+  },
+  {
+    "name": "인천운서점",
+    "address": {
+      "roadAddress": "인천광역시 영종구 제2터미널대로 444",
+      "detailAddress": null,
+      "postalCode": "23358",
+      "sido": "인천광역시",
+      "sigungu": "영종구"
+    },
+    "phone": "032-7166-8910",
+    "openingDate": "2025-06-15"
+  },
+  {
+    "name": "인천구월점",
+    "address": {
+      "roadAddress": "인천광역시 남동구 예술로 138",
+      "detailAddress": null,
+      "postalCode": "21573",
+      "sido": "인천광역시",
+      "sigungu": "남동구"
+    },
+    "phone": "032-6565-1736",
+    "openingDate": "2025-06-30"
+  },
+  {
+    "name": "인천문학점",
+    "address": {
+      "roadAddress": "인천광역시 미추홀구 매소홀로 618",
+      "detailAddress": null,
+      "postalCode": "22234",
+      "sido": "인천광역시",
+      "sigungu": "미추홀구"
+    },
+    "phone": "032-7841-8394",
+    "openingDate": "2025-07-14"
+  },
+  {
+    "name": "인천심곡점",
+    "address": {
+      "roadAddress": "인천광역시 서해구 서곶로 277",
+      "detailAddress": null,
+      "postalCode": "22727",
+      "sido": "인천광역시",
+      "sigungu": "서해구"
+    },
+    "phone": "032-3419-1908",
+    "openingDate": "2025-07-29"
+  },
+  {
+    "name": "인천송도점",
+    "address": {
+      "roadAddress": "인천광역시 연수구 컨벤시아대로 153",
+      "detailAddress": null,
+      "postalCode": "21998",
+      "sido": "인천광역시",
+      "sigungu": "연수구"
+    },
+    "phone": "032-8643-8863",
+    "openingDate": "2025-08-12"
+  },
+  {
+    "name": "대구국우점",
+    "address": {
+      "roadAddress": "대구광역시 북구 도남중앙로9길 1",
+      "detailAddress": null,
+      "postalCode": "41408",
+      "sido": "대구광역시",
+      "sigungu": "북구"
+    },
+    "phone": "053-8286-1871",
+    "openingDate": "2025-08-27"
+  },
+  {
+    "name": "대구신천점",
+    "address": {
+      "roadAddress": "대구광역시 동구 동부로 78",
+      "detailAddress": null,
+      "postalCode": "41255",
+      "sido": "대구광역시",
+      "sigungu": "동구"
+    },
+    "phone": "053-3723-5176",
+    "openingDate": "2025-09-11"
+  },
+  {
+    "name": "대구신당점",
+    "address": {
+      "roadAddress": "대구광역시 달서구 계대동문로 13",
+      "detailAddress": null,
+      "postalCode": "42608",
+      "sido": "대구광역시",
+      "sigungu": "달서구"
+    },
+    "phone": "053-3389-2645",
+    "openingDate": "2025-09-25"
+  },
+  {
+    "name": "대구신매점",
+    "address": {
+      "roadAddress": "대구광역시 수성구 달구벌대로 3216",
+      "detailAddress": null,
+      "postalCode": "42274",
+      "sido": "대구광역시",
+      "sigungu": "수성구"
+    },
+    "phone": "053-2419-3393",
+    "openingDate": "2025-10-10"
+  },
+  {
+    "name": "대구대명점",
+    "address": {
+      "roadAddress": "대구광역시 남구 현충로 170",
+      "detailAddress": null,
+      "postalCode": "42415",
+      "sido": "대구광역시",
+      "sigungu": "남구"
+    },
+    "phone": "053-3834-2577",
+    "openingDate": "2025-10-24"
+  },
+  {
+    "name": "대전태평점",
+    "address": {
+      "roadAddress": "대전광역시 중구 태평로 71",
+      "detailAddress": null,
+      "postalCode": "34885",
+      "sido": "대전광역시",
+      "sigungu": "중구"
+    },
+    "phone": "042-3107-5222",
+    "openingDate": "2025-11-08"
+  },
+  {
+    "name": "대전둔산점",
+    "address": {
+      "roadAddress": "대전광역시 서구 대덕대로241번길 35",
+      "detailAddress": null,
+      "postalCode": "35229",
+      "sido": "대전광역시",
+      "sigungu": "서구"
+    },
+    "phone": "042-2647-7686",
+    "openingDate": "2025-11-22"
+  },
+  {
+    "name": "대전봉명점",
+    "address": {
+      "roadAddress": "대전광역시 유성구 온천서로 2",
+      "detailAddress": null,
+      "postalCode": "34168",
+      "sido": "대전광역시",
+      "sigungu": "유성구"
+    },
+    "phone": "042-2401-8084",
+    "openingDate": "2025-12-07"
+  },
+  {
+    "name": "대전용전점",
+    "address": {
+      "roadAddress": "대전광역시 동구 동서대로 1689",
+      "detailAddress": null,
+      "postalCode": "34551",
+      "sido": "대전광역시",
+      "sigungu": "동구"
+    },
+    "phone": "042-5984-8481",
+    "openingDate": "2025-12-21"
+  },
+  {
+    "name": "울산무거점",
+    "address": {
+      "roadAddress": "울산광역시 남구 대학로84번길 5-3",
+      "detailAddress": null,
+      "postalCode": "44611",
+      "sido": "울산광역시",
+      "sigungu": "남구"
+    },
+    "phone": "052-4915-8541",
+    "openingDate": "2026-01-05"
+  },
+  {
+    "name": "울산매곡점",
+    "address": {
+      "roadAddress": "울산광역시 북구 매곡로 168",
+      "detailAddress": null,
+      "postalCode": "44215",
+      "sido": "울산광역시",
+      "sigungu": "북구"
+    },
+    "phone": "052-6389-4281",
+    "openingDate": "2026-01-19"
+  },
+  {
+    "name": "울산서부점",
+    "address": {
+      "roadAddress": "울산광역시 동구 방어진순환도로 899",
+      "detailAddress": null,
+      "postalCode": "44033",
+      "sido": "울산광역시",
+      "sigungu": "동구"
+    },
+    "phone": "052-7068-5215",
+    "openingDate": "2026-02-03"
+  },
+  {
+    "name": "원주문막점",
+    "address": {
+      "roadAddress": "강원특별자치도 원주시 문막읍 원문로 1464",
+      "detailAddress": null,
+      "postalCode": "26365",
+      "sido": "강원특별자치도",
+      "sigungu": "원주시"
+    },
+    "phone": "033-5522-3481",
+    "openingDate": "2026-02-18"
+  },
+  {
+    "name": "동해평릉점",
+    "address": {
+      "roadAddress": "강원특별자치도 동해시 동해대로 5453",
+      "detailAddress": null,
+      "postalCode": "25749",
+      "sido": "강원특별자치도",
+      "sigungu": "동해시"
+    },
+    "phone": "033-8870-4519",
+    "openingDate": "2026-03-04"
+  },
+  {
+    "name": "춘천후평점",
+    "address": {
+      "roadAddress": "강원특별자치도 춘천시 후석로 245",
+      "detailAddress": null,
+      "postalCode": "24284",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시"
+    },
+    "phone": "033-8885-7862",
+    "openingDate": "2026-03-19"
+  },
+  {
+    "name": "강릉송정점",
+    "address": {
+      "roadAddress": "강원특별자치도 강릉시 경강로 2400",
+      "detailAddress": null,
+      "postalCode": "25561",
+      "sido": "강원특별자치도",
+      "sigungu": "강릉시"
+    },
+    "phone": "033-2734-5507",
+    "openingDate": "2026-04-02"
+  },
+  {
+    "name": "속초조양점",
+    "address": {
+      "roadAddress": "강원특별자치도 속초시 동해대로 3988",
+      "detailAddress": null,
+      "postalCode": "24885",
+      "sido": "강원특별자치도",
+      "sigungu": "속초시"
+    },
+    "phone": "033-5383-5367",
+    "openingDate": "2026-04-17"
+  },
+  {
+    "name": "청주오창점",
+    "address": {
+      "roadAddress": "충청북도 청주시 청원구 오창읍 중심상업1로 20",
+      "detailAddress": null,
+      "postalCode": "28120",
+      "sido": "충청북도",
+      "sigungu": "청주시 청원구"
+    },
+    "phone": "043-8995-2655",
+    "openingDate": "2026-05-01"
+  },
+  {
+    "name": "청주산남점",
+    "address": {
+      "roadAddress": "충청북도 청주시 서원구 산남로 32",
+      "detailAddress": null,
+      "postalCode": "28626",
+      "sido": "충청북도",
+      "sigungu": "청주시 서원구"
+    },
+    "phone": "043-3660-4829",
+    "openingDate": "2026-05-16"
+  },
+  {
+    "name": "청주문화점",
+    "address": {
+      "roadAddress": "충청북도 청주시 상당구 상당로 66",
+      "detailAddress": null,
+      "postalCode": "28516",
+      "sido": "충청북도",
+      "sigungu": "청주시 상당구"
+    },
+    "phone": "043-2487-7498",
+    "openingDate": "2026-05-30"
+  },
+  {
+    "name": "천안두정점",
+    "address": {
+      "roadAddress": "충청남도 천안시 서북구 두정로 264",
+      "detailAddress": null,
+      "postalCode": "31104",
+      "sido": "충청남도",
+      "sigungu": "천안시 서북구"
+    },
+    "phone": "041-4323-1146",
+    "openingDate": "2026-06-14"
+  },
+  {
+    "name": "부여읍점",
+    "address": {
+      "roadAddress": "충청남도 부여군 부여읍 성왕로 317",
+      "detailAddress": null,
+      "postalCode": "33134",
+      "sido": "충청남도",
+      "sigungu": "부여군"
+    },
+    "phone": "041-4322-6088",
+    "openingDate": "2026-06-28"
+  },
+  {
+    "name": "서산성연점",
+    "address": {
+      "roadAddress": "충청남도 서산시 성연면 성연4로 27-14",
+      "detailAddress": null,
+      "postalCode": "31931",
+      "sido": "충청남도",
+      "sigungu": "서산시"
+    },
+    "phone": "041-2409-1527",
+    "openingDate": "2026-07-13"
+  },
+  {
+    "name": "익산모현점",
+    "address": {
+      "roadAddress": "전북특별자치도 익산시 선화로 106",
+      "detailAddress": null,
+      "postalCode": "54659",
+      "sido": "전북특별자치도",
+      "sigungu": "익산시"
+    },
+    "phone": "063-8839-5925",
+    "openingDate": "2026-07-28"
+  },
+  {
+    "name": "전주중화산점",
+    "address": {
+      "roadAddress": "전북특별자치도 전주시 완산구 서원로 356-1",
+      "detailAddress": null,
+      "postalCode": "55046",
+      "sido": "전북특별자치도",
+      "sigungu": "전주시 완산구"
+    },
+    "phone": "063-4000-7697",
+    "openingDate": "2026-08-11"
+  },
+  {
+    "name": "안동옥동점",
+    "address": {
+      "roadAddress": "경상북도 안동시 광명로 166",
+      "detailAddress": null,
+      "postalCode": "36664",
+      "sido": "경상북도",
+      "sigungu": "안동시"
+    },
+    "phone": "054-2179-2410",
+    "openingDate": "2026-08-26"
+  },
+  {
+    "name": "김천율곡점",
+    "address": {
+      "roadAddress": "경상북도 김천시 혁신3로 26",
+      "detailAddress": null,
+      "postalCode": "39660",
+      "sido": "경상북도",
+      "sigungu": "김천시"
+    },
+    "phone": "054-3899-5982",
+    "openingDate": "2026-09-09"
+  },
+  {
+    "name": "김해내동점",
+    "address": {
+      "roadAddress": "경상남도 김해시 경원로 67",
+      "detailAddress": null,
+      "postalCode": "50948",
+      "sido": "경상남도",
+      "sigungu": "김해시"
+    },
+    "phone": "055-7376-1477",
+    "openingDate": "2026-09-24"
+  },
+  {
+    "name": "창원진동점",
+    "address": {
+      "roadAddress": "경상남도 창원시 마산합포구 진동면 삼진의거대로 589-1",
+      "detailAddress": null,
+      "postalCode": "51793",
+      "sido": "경상남도",
+      "sigungu": "창원시 마산합포구"
+    },
+    "phone": "055-2811-6877",
+    "openingDate": "2026-10-08"
+  },
+  {
+    "name": "양산범어점",
+    "address": {
+      "roadAddress": "경상남도 양산시 물금읍 범어로 62",
+      "detailAddress": null,
+      "postalCode": "50611",
+      "sido": "경상남도",
+      "sigungu": "양산시"
+    },
+    "phone": "055-4754-8379",
+    "openingDate": "2026-10-23"
+  },
+  {
+    "name": "제주일도점",
+    "address": {
+      "roadAddress": "제주특별자치도 제주시 동광로 130",
+      "detailAddress": null,
+      "postalCode": "63254",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시"
+    },
+    "phone": "064-2376-4119",
+    "openingDate": "2026-11-06"
+  },
+  {
+    "name": "서귀포색달점",
+    "address": {
+      "roadAddress": "제주특별자치도 서귀포시 천제연로 95",
+      "detailAddress": null,
+      "postalCode": "63534",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시"
+    },
+    "phone": "064-2785-1474",
+    "openingDate": "2026-11-21"
+  },
+  {
+    "name": "서귀포성산점",
+    "address": {
+      "roadAddress": "제주특별자치도 서귀포시 성산읍 일출로 284-5",
+      "detailAddress": null,
+      "postalCode": "63643",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시"
+    },
+    "phone": "064-7777-6874",
+    "openingDate": "2026-12-05"
+  },
+  {
+    "name": "제주용담점",
+    "address": {
+      "roadAddress": "제주특별자치도 제주시 월성로 42",
+      "detailAddress": null,
+      "postalCode": "63164",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시"
+    },
+    "phone": "064-8659-3453",
+    "openingDate": "2026-12-20"
+  }
+]

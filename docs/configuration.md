@@ -7,7 +7,8 @@
 | 이름 | 공개 | 용도 | 필수 |
 |---|---|---|---|
 | `SITE_ENV` | 아니오 (서버, 빌드 시) | `production`이면 robots.txt가 색인 허용 ([seo.md](seo.md#sitemap-robots)). 값: `production`, `preview`, `development`. 비우면 색인 차단 | 운영 배포에서만 `production`으로 설정 |
-| `SHOW_DEMO_DATA` | 아니오 (서버, 빌드 시) | `true`이면 메인의 매장·소식에 화면 확인용 예시 데이터(`src/mocks/`)를 씀. `SITE_ENV=production`이면 무시하고 항상 공개용 데이터(`src/content/`)만 씀 ([ADR-0011](adr/0011-asset-slots-and-demo-data.md)) | 아니오. 기본은 끔 |
+| `SHOW_DEMO_DATA` | 아니오 (서버, 빌드 시) | `true`이면 매장 페이지·메인의 소식에 화면 확인용 예시 데이터(`src/mocks/`)를 씀. `SITE_ENV=production`이면 무시하고 항상 공개용 데이터(`src/content/`)만 씀 ([ADR-0011](adr/0011-asset-slots-and-demo-data.md)) | 아니오. 기본은 끔 |
+| `NEXT_PUBLIC_MENU_API_URL` | 예 (브라우저, 빌드 시) | 메뉴 카탈로그 GET 주소. 비우면 `/data/menu.json`. 응답 계약은 [data-sources.md](data-sources.md). 변경 후 재빌드 필요 | 아니오 |
 
 - 변수를 추가할 때 아래 규칙을 따르고 위 표와 `.env.example`에 등록합니다.
 

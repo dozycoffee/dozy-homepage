@@ -1,0 +1,976 @@
+{
+  "categories": [
+    {
+      "name": "음료",
+      "children": [
+        "커피",
+        "논커피",
+        "티",
+        "에이드·블렌디드"
+      ]
+    },
+    {
+      "name": "푸드",
+      "children": [
+        "베이커리",
+        "구움과자",
+        "케이크",
+        "샌드위치"
+      ]
+    },
+    {
+      "name": "MD",
+      "children": [
+        "원두",
+        "굿즈"
+      ]
+    }
+  ],
+  "optionGroups": [
+    {
+      "name": "사이즈",
+      "selectionType": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "optionKey": "REGULAR",
+          "name": "레귤러",
+          "price": 0
+        },
+        {
+          "optionKey": "LARGE",
+          "name": "라지",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "name": "온도",
+      "selectionType": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "optionKey": "HOT",
+          "name": "핫",
+          "price": 0
+        },
+        {
+          "optionKey": "ICED",
+          "name": "아이스",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "name": "샷 추가",
+      "selectionType": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "optionKey": "EXTRA_SINGLE_SHOT",
+          "name": "1샷 추가",
+          "price": 500
+        },
+        {
+          "optionKey": "EXTRA_DOUBLE_SHOT",
+          "name": "2샷 추가",
+          "price": 1000
+        }
+      ]
+    },
+    {
+      "name": "우유 변경",
+      "selectionType": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "optionKey": "DAIRY_MILK",
+          "name": "일반 우유",
+          "price": 0
+        },
+        {
+          "optionKey": "OAT_MILK",
+          "name": "오트밀크",
+          "price": 600
+        }
+      ]
+    },
+    {
+      "name": "시럽 추가",
+      "selectionType": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "optionKey": "VANILLA_SYRUP",
+          "name": "바닐라 시럽",
+          "price": 500
+        },
+        {
+          "optionKey": "CARAMEL_SYRUP",
+          "name": "카라멜 시럽",
+          "price": 500
+        }
+      ]
+    }
+  ],
+  "productGroups": [],
+  "products": [
+    {
+      "name": "아메리카노",
+      "category": "커피",
+      "basePrice": 3500,
+      "tracksInventory": false,
+      "description": "고소한 에스프레소에 물을 더해 깔끔하게 즐기는 커피.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "샷 추가",
+        "시럽 추가"
+      ]
+    },
+    {
+      "name": "카페라떼",
+      "category": "커피",
+      "basePrice": 4300,
+      "tracksInventory": false,
+      "description": "고소한 에스프레소와 부드러운 우유가 균형을 이루는 커피.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "샷 추가",
+        "우유 변경",
+        "시럽 추가"
+      ]
+    },
+    {
+      "name": "바닐라라떼",
+      "category": "커피",
+      "basePrice": 4800,
+      "tracksInventory": false,
+      "description": "에스프레소와 우유에 바닐라의 은은한 달콤함을 더한 커피.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "샷 추가",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "카페모카",
+      "category": "커피",
+      "basePrice": 5000,
+      "tracksInventory": false,
+      "description": "진한 초콜릿과 에스프레소에 부드러운 우유를 더한 커피.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "샷 추가",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "플랫화이트",
+      "category": "커피",
+      "basePrice": 4500,
+      "tracksInventory": false,
+      "description": "작은 잔에 진한 에스프레소와 고운 우유 거품을 담은 커피.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "온도",
+        "샷 추가",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "말차라떼",
+      "category": "논커피",
+      "basePrice": 5000,
+      "tracksInventory": false,
+      "description": "말차의 쌉쌀한 풍미와 우유의 부드러움을 함께 즐기는 음료.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "초코라떼",
+      "category": "논커피",
+      "basePrice": 4800,
+      "tracksInventory": false,
+      "description": "진한 초콜릿에 우유를 더해 부드럽고 달콤하게 즐기는 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "딸기라떼",
+      "category": "논커피",
+      "basePrice": 5300,
+      "tracksInventory": false,
+      "description": "달콤한 딸기 과육과 차가운 우유가 어우러지는 음료.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "레몬에이드",
+      "category": "에이드·블렌디드",
+      "basePrice": 4800,
+      "tracksInventory": false,
+      "description": "레몬의 상큼함에 시원한 탄산을 더한 과일 음료.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": [
+        "사이즈"
+      ]
+    },
+    {
+      "name": "레몬티",
+      "category": "티",
+      "basePrice": 4500,
+      "tracksInventory": false,
+      "description": "레몬의 산뜻한 향과 새콤달콤한 맛을 즐기는 과일티.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도"
+      ]
+    },
+    {
+      "name": "얼그레이",
+      "category": "티",
+      "basePrice": 4000,
+      "tracksInventory": false,
+      "description": "베르가모트의 향긋한 풍미를 담은 깔끔한 홍차.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도"
+      ]
+    },
+    {
+      "name": "캐모마일",
+      "category": "티",
+      "basePrice": 4000,
+      "tracksInventory": false,
+      "description": "은은한 꽃향과 부드러운 풍미를 즐기는 허브티.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도"
+      ]
+    },
+    {
+      "name": "버터 휘낭시에",
+      "category": "구움과자",
+      "basePrice": 3000,
+      "tracksInventory": false,
+      "description": "버터의 고소한 향과 촉촉한 속이 어우러지는 구움과자.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "초콜릿 휘낭시에",
+      "category": "구움과자",
+      "basePrice": 3300,
+      "tracksInventory": false,
+      "description": "버터의 풍미에 진한 초콜릿을 더한 촉촉한 구움과자.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "소금빵",
+      "category": "베이커리",
+      "basePrice": 3300,
+      "tracksInventory": false,
+      "description": "버터의 고소함과 소금의 짭짤함을 담은 담백한 빵.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "초콜릿 청크 쿠키",
+      "category": "구움과자",
+      "basePrice": 3500,
+      "tracksInventory": false,
+      "description": "큼직한 초콜릿 조각을 넣어 구운 달콤한 쿠키.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "도지 데일리 블렌드 원두 200g",
+      "category": "원두",
+      "basePrice": 15000,
+      "tracksInventory": true,
+      "description": "고소한 견과류와 초콜릿 풍미를 지향하는 데일리 블렌드 원두.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "도지 크림 텀블러 500ml",
+      "category": "굿즈",
+      "basePrice": 25000,
+      "tracksInventory": true,
+      "description": "크림색 바탕에 도지 로고를 담은 일상용 텀블러.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "카푸치노",
+      "category": "커피",
+      "basePrice": 4500,
+      "tracksInventory": false,
+      "description": "에스프레소 위에 풍성한 우유 거품을 올린 커피.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "샷 추가",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "카라멜 마키아또",
+      "category": "커피",
+      "basePrice": 5000,
+      "tracksInventory": false,
+      "description": "바닐라 우유와 에스프레소에 카라멜을 더한 달콤한 커피.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "샷 추가",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "헤이즐넛라떼",
+      "category": "커피",
+      "basePrice": 4800,
+      "tracksInventory": false,
+      "description": "헤이즐넛 향이 우유와 에스프레소에 어우러지는 커피.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "샷 추가",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "연유라떼",
+      "category": "커피",
+      "basePrice": 5000,
+      "tracksInventory": false,
+      "description": "에스프레소와 우유에 연유의 진한 달콤함을 더한 커피.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "샷 추가",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "꿀아메리카노",
+      "category": "커피",
+      "basePrice": 4000,
+      "tracksInventory": false,
+      "description": "깔끔한 아메리카노에 꿀의 은은한 단맛을 더한 커피.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "샷 추가"
+      ]
+    },
+    {
+      "name": "콜드브루",
+      "category": "커피",
+      "basePrice": 4500,
+      "tracksInventory": false,
+      "description": "차갑게 추출한 커피의 부드러운 풍미를 즐기는 아이스 커피.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": [
+        "사이즈"
+      ]
+    },
+    {
+      "name": "콜드브루 라떼",
+      "category": "커피",
+      "basePrice": 5000,
+      "tracksInventory": false,
+      "description": "차가운 콜드브루에 우유를 더한 부드러운 커피.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "바닐라 크림 콜드브루",
+      "category": "커피",
+      "basePrice": 5500,
+      "tracksInventory": false,
+      "description": "차가운 콜드브루 위에 바닐라 우유 크림을 올린 커피.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "밀크티",
+      "category": "논커피",
+      "basePrice": 5000,
+      "tracksInventory": false,
+      "description": "홍차의 향긋한 풍미에 부드러운 우유를 더한 음료.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "흑당 밀크티",
+      "category": "논커피",
+      "basePrice": 5500,
+      "tracksInventory": false,
+      "description": "홍차와 우유에 흑당의 깊은 달콤함을 더한 아이스 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "토피넛라떼",
+      "category": "논커피",
+      "basePrice": 5000,
+      "tracksInventory": false,
+      "description": "고소한 견과 풍미와 달콤한 토피 향을 담은 우유 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "흑임자라떼",
+      "category": "논커피",
+      "basePrice": 5300,
+      "tracksInventory": false,
+      "description": "흑임자의 진한 고소함과 부드러운 우유가 어우러진 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "고구마라떼",
+      "category": "논커피",
+      "basePrice": 5000,
+      "tracksInventory": false,
+      "description": "고구마의 포근한 단맛을 부드러운 우유에 담은 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "민트초코라떼",
+      "category": "논커피",
+      "basePrice": 5000,
+      "tracksInventory": false,
+      "description": "시원한 민트 향과 진한 초콜릿이 어우러지는 우유 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "바닐라밀크",
+      "category": "논커피",
+      "basePrice": 4500,
+      "tracksInventory": false,
+      "description": "바닐라의 은은한 향과 달콤함을 담은 부드러운 우유 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도",
+        "우유 변경"
+      ]
+    },
+    {
+      "name": "페퍼민트",
+      "category": "티",
+      "basePrice": 4000,
+      "tracksInventory": false,
+      "description": "산뜻한 민트 향과 깔끔한 풍미를 즐기는 허브티.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도"
+      ]
+    },
+    {
+      "name": "히비스커스",
+      "category": "티",
+      "basePrice": 4000,
+      "tracksInventory": false,
+      "description": "붉은 빛과 새콤한 풍미를 즐기는 향긋한 허브티.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도"
+      ]
+    },
+    {
+      "name": "루이보스",
+      "category": "티",
+      "basePrice": 4000,
+      "tracksInventory": false,
+      "description": "은은하고 부드러운 풍미를 담은 루이보스 티.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도"
+      ]
+    },
+    {
+      "name": "복숭아 아이스티",
+      "category": "티",
+      "basePrice": 4000,
+      "tracksInventory": false,
+      "description": "복숭아 향과 홍차의 풍미를 시원하게 즐기는 달콤한 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈"
+      ]
+    },
+    {
+      "name": "유자티",
+      "category": "티",
+      "basePrice": 4500,
+      "tracksInventory": false,
+      "description": "유자의 향긋함과 새콤달콤한 맛을 즐기는 과일티.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도"
+      ]
+    },
+    {
+      "name": "자몽티",
+      "category": "티",
+      "basePrice": 4500,
+      "tracksInventory": false,
+      "description": "자몽의 쌉쌀함과 상큼함이 어우러지는 과일티.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도"
+      ]
+    },
+    {
+      "name": "청귤티",
+      "category": "티",
+      "basePrice": 4500,
+      "tracksInventory": false,
+      "description": "청귤의 산뜻한 향과 새콤달콤한 맛을 담은 과일티.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈",
+        "온도"
+      ]
+    },
+    {
+      "name": "자몽에이드",
+      "category": "에이드·블렌디드",
+      "basePrice": 4800,
+      "tracksInventory": false,
+      "description": "자몽의 쌉쌀한 풍미에 시원한 탄산을 더한 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈"
+      ]
+    },
+    {
+      "name": "청포도에이드",
+      "category": "에이드·블렌디드",
+      "basePrice": 4800,
+      "tracksInventory": false,
+      "description": "청포도의 달콤한 향과 톡 쏘는 탄산을 즐기는 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": [
+        "사이즈"
+      ]
+    },
+    {
+      "name": "망고 스무디",
+      "category": "에이드·블렌디드",
+      "basePrice": 5500,
+      "tracksInventory": false,
+      "description": "망고의 풍성한 달콤함을 얼음과 함께 갈아낸 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "딸기 요거트 스무디",
+      "category": "에이드·블렌디드",
+      "basePrice": 5800,
+      "tracksInventory": false,
+      "description": "딸기와 요거트의 새콤달콤함을 시원하게 즐기는 음료.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "플레인 요거트 스무디",
+      "category": "에이드·블렌디드",
+      "basePrice": 5500,
+      "tracksInventory": false,
+      "description": "요거트의 산뜻하고 부드러운 맛을 담은 시원한 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "쿠키앤크림 프라페",
+      "category": "에이드·블렌디드",
+      "basePrice": 5800,
+      "tracksInventory": false,
+      "description": "쿠키와 우유를 얼음과 함께 갈아낸 달콤한 음료.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "플레인 스콘",
+      "category": "구움과자",
+      "basePrice": 3500,
+      "tracksInventory": false,
+      "description": "버터 향과 담백한 맛을 즐기는 바삭한 스콘.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "블루베리 머핀",
+      "category": "구움과자",
+      "basePrice": 3800,
+      "tracksInventory": false,
+      "description": "블루베리의 새콤달콤함을 담은 촉촉한 머핀.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "버터 크루아상",
+      "category": "베이커리",
+      "basePrice": 3800,
+      "tracksInventory": false,
+      "description": "겹겹이 바삭한 결에 버터 향을 담은 크루아상.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "뉴욕 치즈케이크",
+      "category": "케이크",
+      "basePrice": 6000,
+      "tracksInventory": false,
+      "description": "크림치즈의 진한 풍미와 부드러운 식감을 즐기는 케이크.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "초콜릿 브라우니",
+      "category": "케이크",
+      "basePrice": 4500,
+      "tracksInventory": false,
+      "description": "진한 초콜릿 풍미를 촉촉하고 묵직하게 담은 브라우니.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "티라미수",
+      "category": "케이크",
+      "basePrice": 6500,
+      "tracksInventory": false,
+      "description": "커피 향과 부드러운 크림이 어우러지는 디저트.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "햄치즈 샌드위치",
+      "category": "샌드위치",
+      "basePrice": 5800,
+      "tracksInventory": false,
+      "description": "햄과 치즈를 빵 사이에 담아 간편하게 즐기는 샌드위치.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "에그마요 샌드위치",
+      "category": "샌드위치",
+      "basePrice": 5500,
+      "tracksInventory": false,
+      "description": "달걀과 마요네즈의 고소한 조합을 담은 샌드위치.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "도지 프루티 블렌드 원두 200g",
+      "category": "원두",
+      "basePrice": 17000,
+      "tracksInventory": true,
+      "description": "산뜻한 과일 풍미를 지향하는 블렌드 원두.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "도지 디카페인 블렌드 원두 200g",
+      "category": "원두",
+      "basePrice": 18000,
+      "tracksInventory": true,
+      "description": "부드럽고 고소한 풍미를 지향하는 디카페인 블렌드 원두.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "도지 세라믹 머그컵 350ml",
+      "category": "굿즈",
+      "basePrice": 14000,
+      "tracksInventory": true,
+      "description": "도지 로고를 담은 일상용 세라믹 머그.",
+      "imageUrl": null,
+      "tagNames": [
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "도지 리유저블 컵 500ml",
+      "category": "굿즈",
+      "basePrice": 10000,
+      "tracksInventory": true,
+      "description": "도지 로고를 담아 반복해서 사용하는 음료 컵.",
+      "imageUrl": null,
+      "tagNames": [],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "도지 누룽지 크림라떼",
+      "category": "커피",
+      "basePrice": 5800,
+      "tracksInventory": false,
+      "description": "차가운 라떼에 구수한 누룽지 크림을 올린 커피.",
+      "imageUrl": null,
+      "tagNames": [
+        "시그니처",
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": [
+        "샷 추가"
+      ]
+    },
+    {
+      "name": "도지 흑임자 크림커피",
+      "category": "커피",
+      "basePrice": 5500,
+      "tracksInventory": false,
+      "description": "진한 아이스 커피에 고소한 흑임자 우유 크림을 올린 커피.",
+      "imageUrl": null,
+      "tagNames": [
+        "시그니처"
+      ],
+      "groups": [],
+      "optionGroups": [
+        "샷 추가"
+      ]
+    },
+    {
+      "name": "도지 유자말차 에이드",
+      "category": "에이드·블렌디드",
+      "basePrice": 5800,
+      "tracksInventory": false,
+      "description": "유자의 상큼함과 말차의 쌉쌀함을 탄산과 함께 즐기는 음료.",
+      "imageUrl": null,
+      "tagNames": [
+        "시그니처",
+        "추천"
+      ],
+      "groups": [],
+      "optionGroups": []
+    },
+    {
+      "name": "도지 소금버터 크림빵",
+      "category": "베이커리",
+      "basePrice": 4500,
+      "tracksInventory": false,
+      "description": "고소한 소금빵에 은은하게 달콤한 우유 크림을 채운 빵.",
+      "imageUrl": null,
+      "tagNames": [
+        "시그니처"
+      ],
+      "groups": [],
+      "optionGroups": []
+    }
+  ]
+}
