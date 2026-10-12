@@ -6,7 +6,7 @@ type MenuTabsProps = {
   label: string;
   categories: { id: string; label: string }[];
   initialCategory: string;
-  /** 카테고리별 카드 목록. 서버에서 그려서 넘긴다. */
+  /** 카테고리별 카드 목록. 호출한 컴포넌트에서 그려서 넘긴다. */
   panels: Record<string, React.ReactNode>;
 };
 
@@ -36,7 +36,7 @@ export function MenuTabs({ label, categories, initialCategory, panels }: MenuTab
 
   return (
     <div>
-      <div role="tablist" aria-label={label} className="flex gap-6 border-b border-oat md:gap-10">
+      <div role="tablist" aria-label={label} className="flex flex-wrap gap-x-6 gap-y-2 border-b border-oat md:gap-x-10">
         {categories.map((category, index) => {
           const isSelected = category.id === selected;
           return (
@@ -67,6 +67,7 @@ export function MenuTabs({ label, categories, initialCategory, panels }: MenuTab
           id={`${baseId}-panel-${category.id}`}
           aria-labelledby={`${baseId}-tab-${category.id}`}
           hidden={category.id !== selected}
+          tabIndex={0}
           className="mt-8 md:mt-10"
         >
           {panels[category.id]}

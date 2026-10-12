@@ -16,6 +16,7 @@
 | 사이트 전체 SEO 규칙: metadata 기본값, OG 이미지, sitemap, robots, 구조화 데이터, 리다이렉트 | [seo.md](seo.md) |
 | 성능 예산, 접근성 기준, 지원 브라우저와 기기 | [quality.md](quality.md) |
 | 환경 변수, 배포, 도메인 | [configuration.md](configuration.md) |
+| 메뉴 JSON/API 계약, 브라우저 조회·검증·실패 처리 | `data-sources.md` |
 | 결정과 이유 | [adr/](adr/README.md) |
 | 실행 방법, 스크립트, 폴더 구조 | 루트 [README.md](../README.md) |
 
@@ -25,7 +26,6 @@
 
 | 문서 | 만들 시점 |
 |---|---|
-| `data-sources.md` | catalog-api, CMS 등 외부 데이터를 처음 붙일 때 (가져오는 데이터, 갱신 주기, 실패 시 화면) |
 | `testing.md` | 테스트 도구(E2E, 시각 회귀 등)를 정할 때 |
 
 ## 참조 방식

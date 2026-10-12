@@ -1,6 +1,6 @@
 # 0010. 메인은 7개 섹션을 한 페이지에 두고, 헤더 메뉴는 섹션으로 이동한다
 
-- 상태: 채택 (섹션 높이는 [ADR-0012](0012-full-height-sections-and-typographic-ui.md), 헤더 배경·히어로 패널은 [ADR-0013](0013-full-bleed-hero-translucent-header-temp-menu.md)으로 대체)
+- 상태: 채택 (전체 메뉴 조회는 [ADR-0015](0015-featured-home-and-menu-page.md)로 일부 대체) (섹션 높이는 [ADR-0012](0012-full-height-sections-and-typographic-ui.md), 헤더 배경·히어로 패널은 [ADR-0013](0013-full-bleed-hero-translucent-header-temp-menu.md)으로 대체)
 - 날짜: 2026-10-07
 
 ## 맥락

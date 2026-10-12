@@ -84,11 +84,12 @@ Pretendard Variable을 씁니다. `src/app/layout.tsx`에서 `pretendard` 패키
   - `hero-wide` (768px 이상이면서 가로:세로 4:3 이상, `globals.css`의 `@custom-variant`): 이미지를 섹션 전체에 깔고, 글은 정렬선 왼쪽 50% 안에서 세로 가운데입니다.
   - 그 밖(모바일, 세로 태블릿): 글이 위, 남은 높이를 이미지가 좌우 끝까지 채웁니다(최소 288px).
 - 브랜드·공간 사진은 `md` 이상에서 높이를 `100svh - 헤더 - 위아래 여백 - 12rem`(320~600px)로 맞춰 사진과 글이 한 화면에 들어오게 합니다.
-- 섹션을 추가하면 `screen-section`을 씁니다. 메인 밖 페이지(404)는 `section-space`(위아래 여백만)를 씁니다.
+- 매장 쇼케이스는 별도 `store-showcase-section`으로 전체 폭 사진을 배치합니다 ([매장 쇼케이스](#매장-쇼케이스)).
+- 그 밖에 섹션을 추가하면 `screen-section`을 씁니다. 메인 밖 페이지(404)는 `section-space`(위아래 여백만)를 씁니다.
 - 헤더는 `sticky`입니다. 앵커 대상이 가리지 않도록 `html`에 `scroll-padding-top: var(--header-height)`를 둡니다.
 - 360px 너비에서도 가로 스크롤이 생기지 않아야 합니다.
 
-**섹션 배경 순서** (메인): 히어로 이미지(자리 색 `cream`) → 메뉴 `warm-white` → 오더앱 `cream` → 브랜드 `warm-white` → 매장 찾기 `cream` → 소식·가맹 `warm-white`(가맹 위 `oat` 구분선) → 푸터 `cream`
+**섹션 배경 순서** (메인): 히어로 이미지(자리 색 `cream`) → 메뉴 `warm-white` → 브랜드 `warm-white` → 매장 찾기 `cream` → 소식·가맹 `warm-white`(가맹 위 `oat` 구분선) → 오더앱 `cream` → 푸터 `cream`
 
 ## 모서리, 선, 그림자
 
@@ -129,7 +130,7 @@ Pretendard Variable을 씁니다. `src/app/layout.tsx`에서 `pretendard` 패키
 
 ## 움직임
 
-- 색 변화(`transition-colors`), 행동 링크 화살표의 이동, 모바일 메뉴 버튼의 X 회전만 씁니다. 자동 슬라이드, 배경 영상, 스크롤 등장 효과를 쓰지 않습니다.
+- 색 변화(`transition-colors`), 행동 링크 화살표의 이동, 모바일 메뉴 버튼의 X 회전만 씁니다. 대표 메뉴 광고 슬라이드는 사용자 요청에 따른 예외입니다(ADR-0018). 다른 섹션의 자동 슬라이드, 배경 영상, 스크롤 등장 효과는 쓰지 않습니다.
 - 섹션 이동은 부드러운 스크롤입니다. `prefers-reduced-motion: reduce`이면 부드러운 스크롤과 전환 효과를 끕니다.
 - `<html data-scroll-behavior="smooth">`로 페이지 이동 때는 Next.js가 즉시 스크롤합니다.
 
@@ -142,10 +143,11 @@ Pretendard Variable을 씁니다. `src/app/layout.tsx`에서 `pretendard` 패키
 | `logo-dozy-bean.svg` | 헤더, 푸터 로고 | 원본 비율, 높이 32px | 원본 | 벡터 |
 | `hero-coffee-desktop.webp` | 히어로 (`md` 이상, 모바일 대체) | 화면 전체 배경 (`hero-wide`) 또는 글 아래 남은 영역 | cover, `72% center` | 2400×1000 |
 | `hero-coffee-mobile.webp` | 히어로 (모바일) | 글 아래 남은 영역, 좌우 끝까지 | cover, `center` | 1080×1080 |
-| `menu-*.webp` | 메뉴 카드 | 1:1 | contain | 1000×1000 |
 | `dozy-order-coming-soon.webp` | 오더앱 | 6:5 | cover | 1200×1000 |
 | `brand-store-interior.webp` | 브랜드·공간 | 모바일 4:3, `md` 이상 2:1 | cover | 2000×1000 |
-| `store-default.webp` | 개별 사진이 없는 매장 카드 | 4:3 | cover | 1200×900 |
+| `store-showcase-city.webp` | 매장 쇼케이스: 도심 코너 매장 내부 시안 | 원본 3:2, 화면 그리드에 맞게 자름 | cover | 1536×1024 |
+| `store-showcase-neighborhood.webp` | 매장 쇼케이스: 동네 매장 외관 시안 | 원본 3:2, 화면 그리드에 맞게 자름 | cover | 1536×1024 |
+| `store-showcase-campus.webp` | 매장 쇼케이스: 대학가 매장 내부 시안 | 원본 3:2, 화면 그리드에 맞게 자름 | cover | 1536×1024 |
 | `news-*.webp` | 소식 카드 | 4:3 | cover | 1200×900 |
 | `franchise-storefront.webp` | 가맹 안내 | 4:3 | cover | 1600×1200 |
 | `og-dozy-coffee.jpg` | 링크 공유 이미지 ([seo.md](seo.md#og-이미지)) | | | 1200×630 |
@@ -198,3 +200,26 @@ Pretendard Variable을 씁니다. `src/app/layout.tsx`에서 `pretendard` 패키
 ## 미정
 
 - 공식 로고 SVG와 사진 파일 (받으면 [이미지](#이미지) 표의 파일명으로 넣습니다)
+
+## 대표 메뉴 광고와 메뉴 조회
+
+- 현재 메인 메뉴 섹션은 캐러셀 대신 `three-signatures-menu.webp`(1672×941, 시그니처 3종 배너 세로 3단, 품질 92) 한 장을 전체 폭·원본 비율(16:9)로 보여 주되 높이는 `100svh - --header-height`를 넘지 않게 제한합니다. 넘으면 이미지를 줄여(contain) 위아래는 자르지 않고, 남는 좌우는 같은 이미지를 흐리게 확대해 깝니다 이미지 전체가 `/menu` 링크입니다. 아래 캐러셀 규칙은 `MenuAdCarousel`을 다시 쓸 때 기준입니다.
+
+- `menu-ad-carousel`: 전체 폭, 높이 `100svh - --header-height`, 최소 높이 토큰 `menu-ad-min-height`(25rem). 광고 영역이 전체 높이를 채우고 선택 원형 버튼은 이미지 하단에 겹칩니다. 별도 제어 행은 없습니다.
+- `menu-ad-stage`는 overflow hidden, `menu-ad-track`은 가로 flex, 각 광고는 너비 100%입니다. 동적으로 translateX를 적용합니다.
+- `menu-ad-duration`은 500ms, 전환은 ease-in-out. 움직임 줄이기 설정에서는 전역 규칙으로 전환 시간을 없앱니다. 자동 전환 규칙은 [메인 명세](pages/home.md#동작)를 따릅니다.
+- 이미지 규격: `menu-ad-{nurungji,black-sesame,yuja-matcha}-desktop-wide.webp`(약 3:1, 권장 4096×1364), `-mobile.webp`(2:3, 권장 960×1440). 카피·서체 포함. 데스크톱은 이미지를 width·height 100%, object-fit cover, 중앙 기준으로 섹션에 가득 채워 표시합니다(좌우 여백 없음). 각 슬라이드는 overflow hidden이라 이웃 슬라이드 이미지가 비치지 않습니다. 모바일은 md 미만에서 세로형·contain을 사용합니다. 데스크톱 광고는 `next/image` quality 90(`next.config.ts`의 `images.qualities`)으로 최적화합니다(기본 75는 뭉개져 보임). 광고 원본 변환은 WebP 품질 92입니다(`scripts/image-slots.mjs`의 `quality`, 기본 82).
+- 원형 선택 버튼: 한 묶음에 모아(데스크톱은 이미지 위 반투명 Espresso 알약, 모바일은 이미지 아래 빈 영역의 Warm White 알약) 간격 2px로 붙입니다. 터치 영역 24×24px, 보이는 원 지름은 `menu-ad-dot` 토큰(10px), 위치는 하단 gutter·가로 중앙. 데스크톱은 기본 Oat 60%·선택·호버 Warm White 100%, 모바일은 기본 Espresso 25%·선택 Espresso 100%, 테두리 없음. 키보드 초점은 테두리 대신 원이 커지고 밝아지는 것으로 표시합니다. 데스크톱 호버 가능 기기는 호버·focus-within 때 나타나며 나머지는 항상 표시합니다.
+- 카피를 별도 HTML 글자로 중복하지 않고 섹션 h2는 화면 읽기용으로 제공합니다. 그림 속 카피는 alt에 포함합니다.
+- 전체 메뉴 페이지는 일반 section-space 여백과 기존 상품 카드 기준을 사용합니다. 탭은 모바일에서 줄바꿈을 허용합니다.
+- 공용 컴포넌트: `MenuTabs`(키보드 탭), `MenuLoadState`(조회 상태·재시도).
+
+## 매장 쇼케이스
+
+- `store-showcase-section`: 최소 높이 `100svh - --header-height`, 전체 폭 이미지 그리드가 섹션 높이를 채우고 가운데에 검색 상자가 겹쳐 뜹니다. 화면이 짧거나 확대되면 내용에 따라 섹션이 늘어납니다.
+- `store-showcase-search`: 사진 하단 가운데에 떠 있는 한 줄 검색창. 너비 `min(40rem, 100% - 2×gutter)`, 하단에서 gutter의 2배 위. 완전 둥근 Warm White 막대 안에 입력창과 Espresso 둥근 "매장 검색" 버튼(화살표는 480px 이상에서만)을 두고, 라벨은 화면 읽기용입니다. 제목도 `sr-only`이며 위쪽 소개 문구와 "전체 매장 보기" 링크는 없습니다(전체 목록은 빈 검색 또는 상단 메뉴).
+- `store-showcase-gallery`: 최소 높이 토큰 `clamp(27rem, 60svh, 46rem)`(모바일). 태블릿 이상은 왼쪽에 큰 도심 사진(열 1–8)을 두고, 오른쪽 가장자리를 위에서 아래로 오른쪽으로 내려가는 사선(clip-path)으로 자릅니다. 오른쪽에는 동네 외관(위)과 대학가 사진(아래)을 같은 사선 경계로 쌓고, 사진 사이 간격은 `store-showcase-frame` 토큰(8px)의 Cream 선입니다. 겹치지 않으며 회전·그림자·모서리 둥글림 없이 전체 폭을 씁니다. 모바일은 12열·12행 안에서 도심 사진 전체 열/행 1–8, 동네 외관 열 1–7/행 8–12, 대학가 사진 열 7–12/행 7–12로 일부 겹치고(동네가 가장 앞) 경계는 Cream 선으로 나눕니다.
+- 쇼케이스 등장: 갤러리가 화면에 30% 보이면 도심 → 동네 → 대학가 순서로 0.35초 간격을 두고 0.7초 동안 투명도만 바뀌며 나타납니다(렉을 줄이려고 이동 없음). JS가 없거나 움직임 줄이기 설정이면 처음부터 모두 보입니다(`RevealOnView`).
+- 쇼케이스는 위 이미지 표의 전용 `store-showcase-*.webp` 3장을 사용합니다. 서로 다른 가상 매장(도심 코너 내부·동네 외관·대학가 내부)을 AI로 생성한 시안이며, 크림·에스프레소·캐러멜 색감은 통일합니다. 예시 100개나 특정 실제 지점에 연결하지 않습니다. 동네 외관은 깔끔한 복합 건물 1층의 세련된 매장으로, 크림색 마이크로시멘트·원목 입구·슬림한 금속 창틀을 사용합니다. 다른 두 매장과 같은 공간 품질을 유지하고, 중립적인 밝은 자연광·유리 반사·실제 재료의 미세한 질감과 비스듬한 촬영 구도로 사진의 현실감을 표현합니다. 낡은 벽·얼룩·녹슨 소품은 사용하지 않습니다.
+- 공용 `StoreSearchForm`: 메인·매장 페이지에서 검색어를 `/stores?q=...`로 전달합니다. 페이지에서는 시도 선택도 포함합니다. 라벨·44px 이상 버튼·밑줄 초점 표시를 유지합니다.
+- 매장 페이지는 일반 `section-space`와 정렬선을 씁니다. 결과 정보는 사진 반복 없이 1열/태블릿 이상 2열의 글자·구분선 목록입니다.

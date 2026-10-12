@@ -1,31 +1,28 @@
+import { MediaImage } from "@/components/MediaImage";
+import { RevealOnView } from "@/components/RevealOnView";
+import { StoreSearchForm } from "@/components/StoreSearchForm";
 import { storesSection } from "@/content/home";
 import { resolveImage } from "@/lib/assets";
-import { getStores } from "@/lib/content";
-import { StoreFinder, type StoreCardData } from "./StoreFinder";
+
+const imageLayouts = [
+  { className: "store-showcase-primary", sizes: "(min-width: 768px) 67vw, 100vw" },
+  { className: "store-showcase-neighborhood", sizes: "(min-width: 768px) 60vw, 60vw" },
+  { className: "store-showcase-campus", sizes: "(min-width: 768px) 60vw, 50vw" },
+];
 
 export function StoresSection() {
-  const defaultImage = resolveImage(storesSection.defaultImage);
-  const stores: StoreCardData[] = getStores().map(({ image, ...store }) => ({
-    ...store,
-    // 매장 사진이 없거나 파일이 없으면 기본 매장 이미지
-    image: resolveImage(image) ?? defaultImage,
-  }));
-  const { title, searchLabel, searchButton, resultCount, noResultsMessage, emptyMessage, detailLabel, mapLabel } =
-    storesSection;
-  const copy = { searchLabel, searchButton, resultCount, noResultsMessage, emptyMessage, detailLabel, mapLabel };
-
   return (
-    <section id="stores" aria-labelledby="stores-title" className="screen-section bg-cream">
-      <div className="content-frame">
-        <StoreFinder
-          heading={
-            <h2 id="stores-title" className="type-title">
-              {title}
-            </h2>
-          }
-          stores={stores}
-          copy={copy}
-        />
+    <section id="stores" aria-labelledby="stores-title" className="store-showcase-section relative bg-cream">
+      <h2 id="stores-title" className="sr-only">{storesSection.title}</h2>
+      <RevealOnView className="store-showcase-gallery">
+        {storesSection.images.map((slot, index) => (
+          <MediaImage key={slot.src} image={resolveImage(slot)} fit="cover" tone="oat"
+            className={`store-showcase-image ${imageLayouts[index].className}`}
+            sizes={imageLayouts[index].sizes} />
+        ))}
+      </RevealOnView>
+      <div className="store-showcase-search">
+        <StoreSearchForm id="home-store-search" variant="bar" />
       </div>
     </section>
   );

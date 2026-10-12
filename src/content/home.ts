@@ -1,14 +1,13 @@
 // 메인 페이지 문구와 이미지 자리. 문구는 docs/pages/home.md가 기준이다.
 
 import { imageSlot as image } from "./image-slot";
-import type { MenuCategory } from "./types";
 
 export const hero = {
   eyebrow: "DOZY COFFEE",
   /** 줄마다 끊어서 보여 준다 */
   titleLines: ["커피 한 잔,", "잠깐 느려지는 시간."],
   description: "당신의 일상에 편안한 한 잔을 더합니다.",
-  primaryCta: { label: "메뉴 보기", href: "/#menu" },
+  primaryCta: { label: "메뉴 보기", href: "/menu" },
   secondaryCta: { label: "가까운 매장 찾기", href: "/#stores" },
   /** 화면 전체에 깔 때 왼쪽은 글 자리라 음료가 오른쪽에 오게 맞춘다 */
   desktopImage: image("hero-coffee-desktop.webp", "Dozy Coffee의 커피 한 잔", "72% center"),
@@ -21,16 +20,38 @@ export const hero = {
 export const menuSection = {
   title: "오늘은 어떤 한 잔이 좋으세요?",
   description: "커피부터 달콤한 디저트까지, Dozy의 메뉴를 만나보세요.",
-  categories: [
-    { id: "coffee", label: "커피" },
-    { id: "signature", label: "시그니처" },
-    { id: "non-coffee", label: "논커피" },
-    { id: "dessert", label: "디저트" },
-  ] satisfies MenuCategory[],
-  /** 처음 선택된 카테고리 */
-  initialCategory: "coffee",
-  tabsLabel: "메뉴 카테고리",
-  emptyMessage: "메뉴 정보를 준비하고 있습니다.",
+  allMenusLink: { label: "전체 메뉴 보기", href: "/menu" },
+  /** 시그니처 3종을 한 장에 담은 광고. 문구는 이미지 안에 있다 */
+  signaturesImage: image("three-signatures-menu.webp", "Dozy 시그니처 3종. 도지 흑임자 크림커피, 도지 누룽지 크림라떼, 도지 유자말차 에이드. 전체 메뉴 보기."),
+  carouselLabel: "Dozy 대표 메뉴 광고",
+  carouselRole: "캐러셀",
+  slideRole: "슬라이드",
+  paginationLabel: "광고 선택",
+  goToLabel: "{name} 광고 보기",
+  pauseLabel: "일시정지",
+  playLabel: "자동 재생",
+  motionOffLabel: "자동 전환 꺼짐",
+  intervalMs: 8000,
+  ads: [
+    {
+      name: "도지 누룽지 크림라떼",
+      alt: "깊은 고소함. 부드러운 여운. 도지 누룽지 크림라떼. 크림과 커피를 크게 보여주는 광고. 전체 메뉴 보기.",
+      desktopSrc: "/assets/images/menu-ad-nurungji-desktop-wide.webp",
+      mobileSrc: "/assets/images/menu-ad-nurungji-mobile.webp",
+    },
+    {
+      name: "도지 흑임자 크림커피",
+      alt: "짙은 풍미. 고소한 여운. 도지 흑임자 크림커피. 흑임자 크림을 위에서 보여주는 광고. 전체 메뉴 보기.",
+      desktopSrc: "/assets/images/menu-ad-black-sesame-desktop-wide.webp",
+      mobileSrc: "/assets/images/menu-ad-black-sesame-mobile.webp",
+    },
+    {
+      name: "도지 유자말차 에이드",
+      alt: "산뜻한 유자. 깊은 말차. 도지 유자말차 에이드. 햇빛 아래 잔과 유자를 보여주는 광고. 전체 메뉴 보기.",
+      desktopSrc: "/assets/images/menu-ad-yuja-matcha-desktop-wide.webp",
+      mobileSrc: "/assets/images/menu-ad-yuja-matcha-mobile.webp",
+    },
+  ],
 } as const;
 
 export const orderAppSection = {
@@ -53,17 +74,14 @@ export const brandSection = {
 };
 
 export const storesSection = {
+  eyebrow: "A SPACE NEAR YOU",
   title: "가까운 Dozy를 찾아보세요.",
-  searchLabel: "지역 또는 매장명",
-  searchButton: "매장 검색",
-  /** {count}에 결과 수가 들어간다 */
-  resultCount: "매장 {count}곳",
-  noResultsMessage: "검색 조건에 맞는 매장이 없습니다.",
-  emptyMessage: "매장 정보를 준비하고 있습니다.",
-  detailLabel: "매장 상세",
-  mapLabel: "지도 보기",
-  /** 개별 사진이 없는 매장에 쓰는 이미지. 장식용이라 대체 텍스트를 비운다 */
-  defaultImage: image("store-default.webp", ""),
+  description: "일상 가까이에서 만나는, 밝고 편안한 공간.",
+  images: [
+    image("store-showcase-city.webp", "큰 창과 원목 공용 테이블이 있는 가상 도심 Dozy 매장 내부"),
+    image("store-showcase-neighborhood.webp", "크림색 외벽과 원목 입구, 넓은 유리창이 있는 세련된 가상 동네 Dozy 매장 외관", "60% center"),
+    image("store-showcase-campus.webp", "곡선형 커피 바와 창가 좌석이 있는 가상 대학가 Dozy 매장 내부", "center 45%"),
+  ],
 };
 
 export const newsSection = {

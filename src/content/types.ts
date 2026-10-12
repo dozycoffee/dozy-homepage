@@ -1,4 +1,4 @@
-// 화면 데이터의 형태. 필드 규칙은 docs/pages/home.md의 "데이터"가 기준이다.
+// 화면 데이터의 형태. 매장은 docs/pages/stores.md, 그 밖은 docs/pages/home.md의 데이터 규칙이 기준이다.
 
 /** 이미지 자리. `src`는 `/assets/images/` 아래 공개 경로. 파일이 없으면 배경색 자리만 보인다. */
 export type ImageSlot = {
@@ -9,37 +9,48 @@ export type ImageSlot = {
   position?: string;
 };
 
-export type MenuCategoryId = "coffee" | "signature" | "non-coffee" | "dessert";
-
 export type MenuCategory = {
-  id: MenuCategoryId;
-  label: string;
+  name: string;
+  children: string[];
 };
 
-export type MenuItem = {
-  id: string;
-  category: MenuCategoryId;
+export type MenuOptionGroup = {
   name: string;
-  description: string;
-  image?: ImageSlot;
-  /** 원 단위. 실제 가격이 있을 때만 넣는다. */
-  price?: number;
-  /** 메뉴 상세 주소. 있을 때만 카드가 링크가 된다. */
-  detailUrl?: string;
+  selectionType: "SINGLE" | "MULTI";
+  required: boolean;
+  options: { optionKey: string; name: string; price: number }[];
+};
+
+export type MenuProduct = {
+  name: string;
+  category: string;
+  basePrice: number;
+  tracksInventory: boolean;
+  description: string | null;
+  imageUrl: string | null;
+  tagNames: ("신메뉴" | "베스트" | "시즌한정" | "추천" | "시그니처")[];
+  groups: string[];
+  optionGroups: string[];
+};
+
+export type MenuCatalog = {
+  categories: MenuCategory[];
+  optionGroups: MenuOptionGroup[];
+  productGroups: string[];
+  products: MenuProduct[];
 };
 
 export type Store = {
-  id: string;
   name: string;
-  /** 검색에 쓰는 지역명 (예: 서울 강남구) */
-  region: string;
-  address: string;
-  /** 영업시간 표기 (예: 매일 08:00–22:00) */
-  hours: string;
-  /** 비우면 기본 매장 이미지 */
-  image?: ImageSlot;
-  detailUrl?: string;
-  mapUrl?: string;
+  address: {
+    roadAddress: string;
+    detailAddress: string | null;
+    postalCode: string;
+    sido: string;
+    sigungu: string;
+  };
+  phone: string;
+  openingDate: string;
 };
 
 export type NewsCategory = "신메뉴" | "이벤트" | "신규 매장";

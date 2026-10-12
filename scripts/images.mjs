@@ -105,7 +105,7 @@ async function convert() {
       fit: "outside",
       withoutEnlargement: true,
     });
-    const encoded = outExt === ".jpg" ? image.jpeg({ quality: QUALITY.jpeg, mozjpeg: true }) : image.webp({ quality: QUALITY.webp, effort: 5 });
+    const encoded = outExt === ".jpg" ? image.jpeg({ quality: slot.quality ?? QUALITY.jpeg, mozjpeg: true }) : image.webp({ quality: slot.quality ?? QUALITY.webp, effort: 5 });
     const info = await encoded.toFile(output);
     const before = (await stat(input)).size;
     const warnings = sizeWarnings(slot, info.width, info.height);

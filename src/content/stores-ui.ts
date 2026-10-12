@@ -1,0 +1,32 @@
+export const storesUI = {
+  searchLabel: "지역 또는 매장명",
+  searchPlaceholder: "예: 서울, 잠실, 수원",
+  searchButton: "매장 검색",
+  regionLabel: "지역 선택",
+  allRegions: "전체 지역",
+  allStores: "전체 매장 보기",
+  resultCount: "매장 {count}곳",
+  noResultsMessage: "검색 조건에 맞는 매장이 없습니다.",
+  emptyMessage: "매장 정보를 준비하고 있습니다.",
+  loadingMessage: "매장을 불러오고 있습니다.",
+  addressLabel: "주소",
+  postalCodeLabel: "우편번호",
+  phoneLabel: "전화번호",
+  openingDateLabel: "개점(예정)일",
+  mapLabel: "지도 보기",
+  newWindowLabel: "(새 창)",
+  paginationLabel: "매장 목록 페이지",
+  previousLabel: "이전",
+  nextLabel: "다음",
+  pageLabel: "{page}페이지",
+  pageCount: "{page} / {total} 페이지",
+};
+
+export const storesPage = {
+  title: "가까운 Dozy를 찾아보세요.",
+  description: "당신의 일상 가까이, 잠깐 쉬어 갈 공간을 찾아보세요.",
+  listTitle: "매장 검색 결과",
+  demoNotice: "화면 확인용 가상 매장 100곳입니다. 주소는 실제 도로명 주소이며, 매장명·전화번호·개점일은 예시입니다.",
+  metadataTitle: "매장 찾기",
+  metadataDescription: "지역과 매장명으로 Dozy Coffee를 찾아보세요. 매장 주소와 연락처, 개점 정보를 확인할 수 있습니다.",
+};
